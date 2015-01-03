@@ -37,7 +37,7 @@ def getVersion(data):
 setup(
     name='napoleon2html',
     version=getVersion(changelog),
-    description='Functions to translate sphinx to HTML.',
+    description='Wrappers to translate Napoleon/Sphinx docstrings to HTML.',
     long_description=long_description,
     url='https://github.com/Bystroushaak/napoleon2html',
 
