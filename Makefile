@@ -9,7 +9,7 @@ help:
 	@echo "release - package and upload a release"
 	@echo "dist - package"
 
-clean: clean-build clean-pyc clean-test
+clean: clean-build clean-pyc
 
 clean-build:
 	rm -fr build/
